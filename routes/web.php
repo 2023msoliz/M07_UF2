@@ -29,3 +29,9 @@ Route::get('/mostrar', function () {
     return view('mostra');
 });
 
+Route::get('/sign/signup', function () {
+    return view('signup');
+});
+
+
+
