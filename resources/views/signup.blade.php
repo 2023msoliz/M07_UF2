@@ -7,7 +7,7 @@
 </head>
 <body>
     
-    <h2>Sing Up</h2>
+    <h2>{{$title}}</h2>
 
     <form action="POST">
 

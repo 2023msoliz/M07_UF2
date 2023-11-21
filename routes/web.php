@@ -34,6 +34,6 @@ Route::get('/sign/signup', function () {
 });
 
 
-
+Route::get('/signup', [SignUpControlador::class, 'signup']);
 
 
