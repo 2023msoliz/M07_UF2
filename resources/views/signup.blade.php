@@ -7,8 +7,20 @@
 </head>
 <body>
     
-    <h1>HOLA</h1>
     <h2>Sing Up</h2>
+
+    <form action="POST">
+
+
+        <label for="user">Nom usuari</label>
+        <input type="text" id="user"><br><br>
+
+        <label for="contrasenya">Contrasenya</label>
+        <input type="text" id="contrasenya"><br><br>
+
+        <input type="submit">
+
+    </form>
 
 </body>
 </html>
