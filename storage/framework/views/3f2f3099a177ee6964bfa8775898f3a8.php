@@ -6,13 +6,16 @@
     <title>Sign In</title>
 </head>
 <body>
-    <h1>Iniciar Sessión</h1>
-    <form action="POST">
+    <h1><?php echo e($title); ?></h1>
+    <form method="POST">
         <label for="user">Usuario</label><br>
         <input type="text" id="user"><br><br>
-        <label for="pw">Contraseña</label><br>
-        <input type="password" id="pw"><br><br>
-        <input type="button" value="Iniciar sessión">
+        <label for="password">Contraseña</label><br>
+        <input type="password" id="password"><br><br>
+        <input type="submit" value="Iniciar session">
     </form>
+    <br>
+    <a href="<?php echo e(url('/sign/signup')); ?>"><input type="submit" value="Crear cuenta"></a>
+
 </body>
 </html><?php /**PATH /app/resources/views/signin.blade.php ENDPATH**/ ?>

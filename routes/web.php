@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/sign/signin', [SignController::class, 'signin']);
+
+Route::get('/sign/signup', [SignController::class, 'signup']);
