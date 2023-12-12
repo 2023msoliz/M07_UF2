@@ -3,23 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrarse</title>
+    <title>Iniciar Sesion</title>
 </head>
 <body>
     
-    <h2>Registrarse</h2>
+    <h2>Iniciar Sesion</h2>
 
     <form action="POST">
-
-        <label for="user">Nom: </label>
-        <input type="text" id="user"><br><br>
-
-        <label for="user">Cognom: </label>
-        <input type="text" id="user"><br><br>
-
-        <label for="user">Edat: </label>
-        <input type="text" id="user"><br><br>
-
+        
         <label for="user">Nom usuari: </label>
         <input type="text" id="user"><br><br>
 
